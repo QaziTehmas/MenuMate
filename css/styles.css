@@ -1,0 +1,195 @@
+body{
+    background-color: #d3d3d3;
+    text-align: center;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+hr{
+    border-style: none;
+    border-bottom-style: dotted;
+    border-color: #1F618D;
+    border-width: 10px;
+    width: 50%;
+    height: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+/* Main Page */
+
+#title{
+    background-color: #2471A3;
+    padding: 5% 6% 2%;
+    margin: 0.5% 1.5% 0;
+    border-radius: 10px;
+}
+
+#main-head{
+    padding: 5% 5% 0% 3%;
+}
+
+.title-pic{
+    margin-top: 10%;
+    width: 480px;
+}
+
+#testimonials{
+    background-color: #5499C7;
+    text-align: center;
+    padding: 10%;
+    margin: 1% 1.5% 0;
+    border-radius: 10px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-text{
+    color:  #1F618D ;
+}
+
+#menu{
+    background-color: #fff;
+    margin: 1% 1.5% 0%;
+    text-align: center;
+    padding: 8% 8% 6%;
+    border-radius: 10px;
+}
+
+.menu-isb, .menu-rwp{
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    padding: 2%;
+}
+
+/* Islamabad */
+
+#titleisb{
+    background-color: #2471A3;
+    padding: 5% 6%;
+    margin: 0.5% 1.5% 0;
+    border-radius: 10px;
+}
+
+#isb-head{
+    text-align: center; 
+    padding: 5% 10%;
+    line-height: 1.5;
+}
+
+/* Rawalpindi */
+
+#titlerwp{
+    background-color: #2471A3;
+    padding: 5% 6%;
+    margin: 0.5% 1.5% 0;
+    border-radius: 10px;
+}
+
+#rwp-head{
+    text-align: center; 
+    padding: 5% 10%;
+    line-height: 1.5;
+}
+
+
+/* Common */
+
+.container-fluid{
+    padding: 0% 5% 0%;
+}
+
+#pricing{
+    background-color: #5499C7;
+    padding: 5% 7%;
+    margin: 0.5% 1.5% 0;
+    border-radius: 10px;
+}
+
+.pricing-colomn{
+    padding: 2% 3%;
+}
+
+.card-header{
+    background-color: #1A5276;
+    color: #EAF2F8;
+}
+
+.card-body{
+    color: #2C3E50;
+    background-color: #EAF2F8;
+}
+
+.pri-tag{
+    color: #154360;
+}
+
+
+/* Footer Section */
+
+#footer{
+    margin: 1% 1.5% 0.5%;
+    border-radius: 10px;
+    padding-top: 30px;
+    background-color: #2471A3;
+    text-align: center;
+}
+
+.thanks-h3{
+    font-family: "ubuntu", Verdana, sans-serif;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    color: #fff;
+    padding: 0 0 10px;
+}
+
+.contact{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.copyright{
+    padding: 2%;
+}
+
+.social{
+    font-size: larger;
+    padding: 15px 15px;
+}
+
+/* Media querry */
+
+@media (max-width: 1010px){
+    #title{
+        text-align: center;
+
+    }
+    .title-pic{
+        width: 350px;
+    }
+    
+    h1{
+        font-size: 2.5rem;
+    }
+    .title-pic{
+       margin-right: 80px;
+       
+    }
+    .pricing-colomn{
+        width: 175px;
+    }
+}
